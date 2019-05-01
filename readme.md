@@ -6,17 +6,18 @@ The goal of this repo is to sync Slic3r profiles between different machines. Ple
 
 As such it is **not recommended** that you import these slic3r configs unless you are certain of what you are doing. If you do intend to use these profiles, take a snapshot of your configuration first.
 
-
 # Usage
 ## Filament Profiles
 ### Importing Filament Config
   - Select `Load Config...` from the file menu, and select the desired filament ini from the filaments folder.
   - The filament is loaded for use but not saved. To save it, go to the `Filament Settings` tab. With the desired filament setting selected from the dropdown, hit the save button icon to store the setting permanently.
-### Alternative ConfigInstall
+### Alternative Config Install
   Copy the filament profile .ini from the repo to one of the following directories on your machine:
   **OSX** - /Library/Application Support/Slic3r PE/filament
   **Windows** - /users/_login_name_/AppData/Roaming/Slic3r PE
 
+## Nozzle Profile Bundles
+Import process is the same as any other bundle, simply navigate to `File -> Import -> Config Bundle...`
 
 # Changes
 ### 1 May 2019
